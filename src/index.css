@@ -36,8 +36,11 @@ input[type="text"] {
     flex-grow: 1;
 }
 
+/* You can skip these claases :) */
 
 body {
     background-color: #1E1E1E;
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
