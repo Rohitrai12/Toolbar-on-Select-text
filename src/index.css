@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+input[type="text"] {
+    width: 100%;
+}
+
+input[type="text"] {
+    padding: 8px 12px;
+    margin: 0;
+}
+
+.toolbar {
+    width: 100%;
+    max-width: 300px;
+}
+
+
+@media (max-width: 600px) {
+    .toolbar {
+        width: 90%;
+    }
+
+    input[type="text"] {
+        font-size: 14px;
+    }
+}
+
+.toolbar {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"] {
+    flex-grow: 1;
+}
+
+
+body {
+    background-color: #1E1E1E;
+    color: white;
+}
